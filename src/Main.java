@@ -126,7 +126,7 @@ public class Main {
 
     // Утилита для создания строки-разделителя (Java 8)
     private static String buildLine() {
-        char[] chars = new char[96];
+        char[] chars = new char[105];
         Arrays.fill(chars, '-');
         return new String(chars);
     }
